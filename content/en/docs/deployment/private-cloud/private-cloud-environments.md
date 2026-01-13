@@ -26,7 +26,7 @@ See [Licensing Mendix on Kubernetes](/developerportal/deploy/private-cloud/#lice
 
 ### Environment Number Limitations
 
-Assigning a single standard or global Operator to manage 350 or more environments may lead to reduced performance.
+Configuring a single standard or global Operator to manage > 350 environments may lead to (performance) issues and is not supported. Please consider deploying additional Operators when > 350 environments need to be managed.
 
 ## Production Environments
 
